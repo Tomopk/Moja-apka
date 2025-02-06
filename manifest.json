@@ -1,0 +1,18 @@
+{
+    "name": "Moja Aplikacja",
+    "short_name": "Aplikacja",
+    "start_url": "index.html",
+    "display": "fullscreen",
+    "background_color": "#f4f4f4",
+    "theme_color": "#007bff",
+    "icons": [
+        {
+            "src": "icon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}
+
+//Pozwala dodać ikonę i nazwę aplikacjil
+//Sprawia, że aplikacja otwiera się w pełnym ekranie

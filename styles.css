@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Pełna wysokość ekranu */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Przyciski na dole */
+    align-items: center;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; /* Rozkłada przyciski równomiernie */
+    padding: 10px;
+    background-color: #f1f1f1; /* Kolor tła */
+    position: fixed;
+    bottom: 0;
+}
+
+.button-container button {
+    display: flex;
+    flex-direction: column; /* Ustawienie elementów w kolumnie */
+    align-items: center; /* Wyśrodkowanie ikon i tekstu */
+    justify-content: center;
+    padding: 10px;
+    font-size: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 70px; /* Stała szerokość dla lepszego wyglądu */
+    height: 70px; /* Stała wysokość */
+}
+
+.button-container i {
+    font-size: 24px; /* Rozmiar ikony */
+    margin-bottom: 3px; /* Dystans między ikoną a tekstem */
+}
+
+.button-container button:hover {
+    background-color: #0056b3;
+}
+
+.button-container span {
+    font-size: 12px;
+    color: white;
+}
+
+.back-text {
+    position: fixed; /* Pozycja stała w lewym górnym rogu */
+    top: 10px; /* Odstęp od góry */
+    left: 10px; /* Odstęp od lewej */
+    font-size: 18px; /* Rozmiar czcionki */
+    font-weight: bold; /* Pogrubienie tekstu */
+    color: black; /* Kolor tekstu */
+    cursor: pointer; /* Kursor wskazujący na kliknięcie */
+}
